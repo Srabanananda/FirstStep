@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.appwallet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[:react-native-community_netinfo] /Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] /Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.android.gms:play-services-iid:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+15-->[com.google.android.gms:play-services-iid:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.android.installreferrer:installreferrer:1.1.2] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:1.1.2] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+17
+18    <application
+18-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:6:5-24:19
+19        android:name="com.appwallet.MainApplication"
+19-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/e596bd84a87a4cbdcf9d545f7eacbd1e/core-1.7.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:12:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/debug/AndroidManifest.xml:8:9-44
+29        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+29-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/debug/AndroidManifest.xml:11:9-86
+29-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/debug/AndroidManifest.xml:11:19-83
+30        <activity
+30-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:13:7-23:18
+31            android:name="com.appwallet.MainActivity"
+31-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:14:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+32-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:16:9-86
+33            android:label="@string/app_name"
+33-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:15:9-41
+34            android:launchMode="singleTask"
+34-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:17:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:18:9-51
+36            <intent-filter>
+36-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:19:9-22:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:20:13-65
+37-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:20:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:21:13-73
+39-->/Users/srabananandarauta/Documents/Project/AppWallet/AppWallet/android/app/src/main/AndroidManifest.xml:21:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/b4d42c69c1b303365db268f40f4c6e87/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+44            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+44-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/b4d42c69c1b303365db268f40f4c6e87/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+45            android:value="GlideModule" />
+45-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/b4d42c69c1b303365db268f40f4c6e87/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+46
+47        <activity
+47-->[com.google.android.gms:play-services-base:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-basement:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.android.gms:play-services-basement:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.android.gms:play-services-basement:17.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+58            android:authorities="com.appwallet.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/6d54bbfebc644b955342f5222212631f/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/b4f70e2aa5cce10e50e20d9b8e994481/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/b4f70e2aa5cce10e50e20d9b8e994481/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/srabananandarauta/.gradle/caches/transforms-2/files-2.1/b4f70e2aa5cce10e50e20d9b8e994481/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>
